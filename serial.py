@@ -6,7 +6,6 @@ import sys
 parser = argparse.ArgumentParser(description="Choose debug mode or not.")
 parser.add_argument("--debug", help="Print stdout and stderr messages.",
                     action="store_true")
-parser.add_argument("-d", "--date", help="Input date as MM-YYYY.", required=False)
 args = parser.parse_args()
 
 def main():
